@@ -1,0 +1,47 @@
+dataset:
+  name: 'coco'
+  images-path: 'data/coco/images'  # not needed if using pre-extracted bottom-up features
+  data: 'data'
+  restval: True
+
+text-model:
+  name: 'bert'
+  pretrain: 'bert-base-uncased'
+  word-dim: 768
+  extraction-hidden-layer: 6
+  fine-tune: True
+  pre-extracted: False
+  layers: 0
+  dropout: 0.1
+
+image-model:
+  name: 'bottomup'
+  pre-extracted-features-root: 'data/coco/features_36'
+  transformer-layers: 4
+  dropout: 0.1
+  pos-encoding: 'concat-and-process'  # concatenate regions to the feature and then process through a fc stack
+  fine-tune: False
+  feat-dim: 2048
+  norm: True
+
+model:
+  name: 'tern'
+  embed-size: 1024
+  text-aggregation: 'first'     # T-CLS
+  image-aggregation: 'first'    # I-CLS
+  layers: 2
+  shared-transformer: True
+  dropout: 0.1
+
+training:
+  lr: 0.000002
+  grad-clip: 2.0
+  max-violation: True
+  measure: 'dot'
+  margin: 0.2             # margin to use for the hinge-based triplet loss
+  bs: 80
+  scheduler: 'steplr'
+  gamma: 0.1
+  step-size: 30           # step-size for the exponential-step scheduler
+  warmup: 'linear'
+  warmup-period: 1000     # number of warmup iterations
