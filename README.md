@@ -3,7 +3,9 @@
 Code for the cross-modal visual-linguistic retrieval method from "Transformer Reasoning Network for Image-Text Matching and Retrieval", submitted to ICPR 2020.
 
 This repo is built on top of [VSE++](https://github.com/fartashf/vsepp).
-![example](images/architecture.png)
+<p align="center">
+  <img src="images/architecture.png">
+</p>
 
 
 ## Setup
