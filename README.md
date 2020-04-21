@@ -1,6 +1,6 @@
 # Transformer Encoder Reasoning Network
 
-Code for the cross-modal visual-linguistic retrieval method from "Transformer Reasoning Network for Image-Text Matching and Retrieval", submitted to ICPR 2020.
+Code for the cross-modal visual-linguistic retrieval method from "Transformer Reasoning Network for Image-Text Matching and Retrieval", submitted to ICPR 2020 [[Pre-print PDF](https://arxiv.org/abs/2004.09144)].
 
 This repo is built on top of [VSE++](https://github.com/fartashf/vsepp).
 <p align="center">
