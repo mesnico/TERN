@@ -39,12 +39,15 @@ tar -xvf features_36.tar -C data/coco
 ```
 
 ## Evaluate
-Download our pre-trained TERN model [here](http://datino.isti.cnr.it/tern/model_best_ndcg.pth)
-
-Then issue the following commands for evaluating the model on the 1k (5fold cross-validation) or 5k test sets.
+Download our pre-trained TERN model: 
 ```
-python3 test.py path/to/model_best_ndcg.pth.tar --config configs/tern.yaml --size 1k
-python3 test.py path/to/model_best_ndcg.pth.tar --config configs/tern.yaml --size 5k
+wget http://datino.isti.cnr.it/tern/model_best_ndcg.pth
+```
+
+Then, issue the following commands for evaluating the model on the 1k (5fold cross-validation) or 5k test sets.
+```
+python3 test.py model_best_ndcg.pth --config configs/tern.yaml --size 1k
+python3 test.py model_best_ndcg.pth --config configs/tern.yaml --size 5k
 ```
 
 ## Train
