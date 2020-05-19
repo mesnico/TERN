@@ -56,3 +56,17 @@ In order to train the model using the basic TERN configuration, issue the follow
 python3 train.py --config configs/tern.yaml --logger_name runs/tern
 ```
 `runs/tern` is where the output files (tensorboard logs, checkpoints) will be stored during this training session.
+
+## Reference
+If you found this code useful, please cite the following paper:
+
+    @article{messina2020transformer,
+      title={Transformer Reasoning Network for Image-Text Matching and Retrieval},
+      author={Messina, Nicola and Falchi, Fabrizio and Esuli, Andrea and Amato, Giuseppe},
+      journal={arXiv preprint arXiv:2004.09144},
+      year={2020}
+    }
+
+## License
+
+[Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
