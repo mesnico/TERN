@@ -77,7 +77,6 @@ dependencies:
     - dominate==2.4.0
     - easydict==1.9
     - entrypoints==0.3
-    - faiss-prebuilt==1.4
     - fastrlock==0.4
     - filelock==3.0.10
     - fire==0.1.3
