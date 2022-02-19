@@ -24,6 +24,10 @@ export PYTHONPATH=.
 ```
 
 ## Get the data
+
+NOTE: Due to a NAS failure, the files below are temporarily moved to Google Drive and can be downloaded from there:
+https://drive.google.com/drive/folders/1njEa9t7TXRX6GIbj31LUu4cCDx_sImzK?usp=sharing
+
 1. Download and extract the data folder, containing COCO annotations, the splits by Karpathy et al. and ROUGEL - SPICE precomputed relevances:
 
 ```
