@@ -64,11 +64,13 @@ python3 train.py --config configs/tern.yaml --logger_name runs/tern
 ## Reference
 If you found this code useful, please cite the following paper:
 
-    @article{messina2020transformer,
-      title={Transformer Reasoning Network for Image-Text Matching and Retrieval},
+    @inproceedings{messina2021transformer,
+      title={Transformer reasoning network for image-text matching and retrieval},
       author={Messina, Nicola and Falchi, Fabrizio and Esuli, Andrea and Amato, Giuseppe},
-      journal={arXiv preprint arXiv:2004.09144},
-      year={2020}
+      booktitle={2020 25th International Conference on Pattern Recognition (ICPR)},
+      pages={5222--5229},
+      year={2021},
+      organization={IEEE}
     }
 
 ## License
