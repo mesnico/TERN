@@ -1,5 +1,11 @@
 # Transformer Encoder Reasoning Network
 
+## Updates
+
+- :fire: 09/2022: The extension to this work (**ALADIN: Distilling Fine-grained Alignment Scores for Efficient Image-Text Matching and Retrieval**) has been published in proceedings of CBMI 2022. Check out [code](https://github.com/mesnico/ALADIN) and [paper](https://arxiv.org/abs/2207.14757)!
+
+## Introduction
+
 Code for the cross-modal visual-linguistic retrieval method from "Transformer Reasoning Network for Image-Text Matching and Retrieval", accepted to ICPR 2020 [[Pre-print PDF](https://arxiv.org/pdf/2004.09144.pdf)].
 
 This repo is built on top of [VSE++](https://github.com/fartashf/vsepp).
